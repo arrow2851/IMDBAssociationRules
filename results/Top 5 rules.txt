@@ -1,0 +1,27 @@
+
+
+"High lift"
+    lhs                        rhs           support     confidence lift     count
+[1] {2014,Biography}        => {Documentary} 0.004585412 0.6980108  7.252352 386  
+[2] {Biography}             => {Documentary} 0.011404134 0.4150454  4.312333 960  
+[3] {Biography,Documentary} => {2014}        0.004585412 0.4020833  3.537930 386  
+[4] {2014,Romance}          => {Comedy}      0.004906153 0.4033203  1.554627 413  
+[5] {2008,Romance}          => {Drama}       0.004454740 0.6117455  1.293206 375  
+
+"Low lift"
+    lhs                 rhs     support     confidence lift      count
+[1] {Musical}        => {Drama} 0.005119981 0.4054563  0.8571183  431 
+[2] {2018}           => {Drama} 0.034141126 0.4098688  0.8664462 2874 
+[3] {Comedy,Romance} => {Drama} 0.017355666 0.4151748  0.8776628 1461 
+[4] {Crime,Thriller} => {Drama} 0.007412687 0.4216216  0.8912912  624 
+[5] {Sport}          => {Drama} 0.004502257 0.4282486  0.9053004  379 
+
+"Lift = 1"
+    lhs                rhs     support     confidence lift      count
+[1] {Crime,Mystery} => {Drama} 0.003813257 0.4893293  1.0344225  321 
+[2] {2000}          => {Drama} 0.017486339 0.4888741  1.0334603 1472 
+[3] {2015}          => {Drama} 0.053302447 0.4711256  0.9959406 4487 
+[4] {Biography}     => {Drama} 0.012758375 0.4643320  0.9815793 1074 
+[5] {2014}          => {Drama} 0.052744120 0.4640953  0.9810789 4440 
+
+// mention the ignored rule
